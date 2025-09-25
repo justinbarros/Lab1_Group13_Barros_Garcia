@@ -1,3 +1,8 @@
+#Lab 1
+#Group 13
+#Authors: Justin Barros, Robinson Garcia
+#Date: 9/25/2025
+
 from guessing_game import guessing_game
 from rockPaperScissors import rock_paper_scissors_game
 
