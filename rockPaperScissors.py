@@ -50,6 +50,6 @@ def rock_paper_scissors_game():
 
         print(f"Scores:\n Player: {player_score}\n Computer: {computer_score}\n")
 
-print(f"Final Scores:\n Player: {player_score}\n Computer: {computer_score}")
-print("Thanks for playing!")
+  print(f"Final Scores:\n Player: {player_score}\n Computer: {computer_score}")
+  print("Thanks for playing!")
 
