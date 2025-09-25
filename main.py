@@ -9,7 +9,8 @@ from rockPaperScissors import rock_paper_scissors_game
 def main():
     '''asks the user which game they would like to play between:
     1 - guessing game or 2 - rock-paper-scissors.
-    the loop will keep running until the user chooses to quit.'''
+    the loop will keep running until the user chooses to quit.
+    Author: Justin Barros, Robinson Garcia'''
     while True:
         print("\nWhich game would you like to play?")
         print("1. Guessing Game")
