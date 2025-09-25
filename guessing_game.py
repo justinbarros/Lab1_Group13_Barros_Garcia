@@ -5,7 +5,8 @@ def guessing_game():
     After each guess, the user will be told if the guess is too low, too high, or correct.
     If the guess is correct, they win.
     If they use all 5 tries without guessing correctly, they lose and the correct number is shown.
-    At the end, the user can choose to play again or stop.'''
+    At the end, the user can choose to play again or stop.
+    Author: Justin Barros'''
     play_again = 'Y'
 
     while play_again.upper() == 'Y':
