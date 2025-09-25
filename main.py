@@ -6,7 +6,7 @@ def main():
     1 - guessing game or 2 - rock-paper-scissors.
     the loop will keep running until the user chooses to quit.'''
     while True:
-        print("\nWhich game do you want to play?")
+        print("\nWhich game would you like to play?")
         print("1. Guessing Game")
         print("2. Rock-paper-scissors")
         print("3. Quit")
