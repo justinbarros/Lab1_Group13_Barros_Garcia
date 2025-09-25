@@ -1,15 +1,15 @@
 import random
 
 def rock_paper_scissors_game():
-  '''The computer will generate a random number from 1 - 3 and will ask the user to choose a number. Depending on the combination of the random number generated and the number the user chose, the program will decide on who won of if it is a tie.'''
+  '''The computer will generate a random number from 1 - 3 and will ask the user to choose a number. 
+  Depending on the combination of the random number generated and the number the user chose, 
+  the program will decide on who won of if it is a tie.'''
 
 player_score = 0
 computer_score = 0
 
 while True:
         player_choice = int(input("Enter your choice (1.rock, 2.paper, 3.scissors 4. quit "))
-
-        
 
         if player_choice == 4:
             break
@@ -21,7 +21,7 @@ while True:
             choice = "scissors"
 
         else:
-            print("Invalid choice. Please enter 1, 2, or 3")
+            print("Invalid choice. Please enter 1, 2, 3, or 4")
             continue
 
         # Simulate computer's choice 
@@ -47,8 +47,8 @@ while True:
             print("Computer wins!")
             computer_score += 1
 
-        print(f"Scores: Player: {player_score}, Computer: {computer_score}\n")
+        print(f"Scores:\n Player: {player_score}\n Computer: {computer_score}\n")
 
-print(f"Final Scores: Player: {player_score}, Computer: {computer_score}")
+print(f"Final Scores:\n Player: {player_score}\n Computer: {computer_score}")
 print("Thanks for playing!")
 
