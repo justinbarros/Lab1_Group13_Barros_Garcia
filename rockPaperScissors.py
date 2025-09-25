@@ -5,10 +5,10 @@ def rock_paper_scissors_game():
   Depending on the combination of the random number generated and the number the user chose, 
   the program will decide on who won of if it is a tie.'''
 
-player_score = 0
-computer_score = 0
+  player_score = 0
+  computer_score = 0
 
-while True:
+  while True:
         player_choice = int(input("Enter your choice (1.rock, 2.paper, 3.scissors 4. quit "))
 
         if player_choice == 4:
