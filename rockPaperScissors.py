@@ -3,7 +3,8 @@ import random
 def rock_paper_scissors_game():
   '''The computer will generate a random number from 1 - 3 and will ask the user to choose a number. 
   Depending on the combination of the random number generated and the number the user chose, 
-  the program will decide on who won of if it is a tie.'''
+  the program will decide on who won of if it is a tie.
+  Author: Robinson Garcia'''
 
   player_score = 0
   computer_score = 0
