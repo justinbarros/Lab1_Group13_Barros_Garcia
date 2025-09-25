@@ -3,7 +3,7 @@ from rockPaperScissors import rock_paper_scissors_game
 
 def main():
     '''asks the user which game they would like to play between:
-    1 - guessing Game or 2 - rock-paper-scissors.
+    1 - guessing game or 2 - rock-paper-scissors.
     the loop will keep running until the user chooses to quit.'''
     while True:
         print("\nWhich game do you want to play?")
